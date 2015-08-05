@@ -265,6 +265,7 @@ namespace Arm_Age_Finder
             {
                 ResultsForm ResultsForm = new ResultsForm();
                 ResultsForm.Show();
+                this.Close();
             }
             else if (falseChecks > 0)
             {
