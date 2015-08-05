@@ -43,9 +43,15 @@ namespace Arm_Age_Finder
             }
         }
 
-        private void CloseButton_Click(object sender, EventArgs e)
+        private void ExitButton_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void RestartButton_Click(object sender, EventArgs e)
+        {
+            Main_Form Main_Form = new Main_Form();
+            Main_Form.Show();  
         }
     }
 }

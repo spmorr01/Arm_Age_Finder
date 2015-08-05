@@ -37,6 +37,7 @@ namespace Arm_Age_Finder
             {
                 PitcherForm PitcherForm = new PitcherForm();
                 PitcherForm.Show();
+                this.Hide();
             }
             lastChecked = activeCheckBox.Checked ? activeCheckBox : null;
         }
@@ -50,6 +51,7 @@ namespace Arm_Age_Finder
             {
                 PositionPlayerForm PPForm = new PositionPlayerForm();
                 PPForm.Show();
+                this.Hide();
             }
             lastChecked = activeCheckBox.Checked ? activeCheckBox : null;
         }
@@ -63,6 +65,7 @@ namespace Arm_Age_Finder
             {
                 DualPlayerForm DualPlayerForm = new DualPlayerForm();
                 DualPlayerForm.Show();
+                this.Hide();
             }
             lastChecked = activeCheckBox.Checked ? activeCheckBox : null;
         }

@@ -34,20 +34,23 @@
             this.diagnosisResults = new System.Windows.Forms.Label();
             this.ageResult = new System.Windows.Forms.Label();
             this.headerResultsLabel = new System.Windows.Forms.Label();
-            this.CloseButton = new System.Windows.Forms.Button();
+            this.ExitButton = new System.Windows.Forms.Button();
+            this.RestartButton = new System.Windows.Forms.Button();
             this.resultsLayoutPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // resultsLayoutPanel
             // 
             this.resultsLayoutPanel.BackColor = System.Drawing.Color.Transparent;
-            this.resultsLayoutPanel.ColumnCount = 1;
-            this.resultsLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.resultsLayoutPanel.ColumnCount = 2;
+            this.resultsLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.resultsLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.resultsLayoutPanel.Controls.Add(this.RestartButton, 0, 4);
             this.resultsLayoutPanel.Controls.Add(this.diagnosisResultsString, 0, 3);
             this.resultsLayoutPanel.Controls.Add(this.diagnosisResults, 0, 2);
             this.resultsLayoutPanel.Controls.Add(this.ageResult, 0, 1);
             this.resultsLayoutPanel.Controls.Add(this.headerResultsLabel, 0, 0);
-            this.resultsLayoutPanel.Controls.Add(this.CloseButton, 0, 4);
+            this.resultsLayoutPanel.Controls.Add(this.ExitButton, 1, 4);
             this.resultsLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.resultsLayoutPanel.Location = new System.Drawing.Point(0, 0);
             this.resultsLayoutPanel.Name = "resultsLayoutPanel";
@@ -65,6 +68,7 @@
             // 
             this.diagnosisResultsString.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.diagnosisResultsString.AutoSize = true;
+            this.resultsLayoutPanel.SetColumnSpan(this.diagnosisResultsString, 2);
             this.diagnosisResultsString.Font = new System.Drawing.Font("Broadway", 48F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.diagnosisResultsString.Location = new System.Drawing.Point(314, 578);
             this.diagnosisResultsString.Name = "diagnosisResultsString";
@@ -77,6 +81,7 @@
             // 
             this.diagnosisResults.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.diagnosisResults.AutoSize = true;
+            this.resultsLayoutPanel.SetColumnSpan(this.diagnosisResults, 2);
             this.diagnosisResults.Font = new System.Drawing.Font("Broadway", 48F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.diagnosisResults.Location = new System.Drawing.Point(457, 411);
             this.diagnosisResults.Name = "diagnosisResults";
@@ -89,6 +94,7 @@
             // 
             this.ageResult.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.ageResult.AutoSize = true;
+            this.resultsLayoutPanel.SetColumnSpan(this.ageResult, 2);
             this.ageResult.Font = new System.Drawing.Font("Broadway", 48F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ageResult.Location = new System.Drawing.Point(461, 244);
             this.ageResult.Name = "ageResult";
@@ -101,6 +107,7 @@
             // 
             this.headerResultsLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.headerResultsLabel.AutoSize = true;
+            this.resultsLayoutPanel.SetColumnSpan(this.headerResultsLabel, 2);
             this.headerResultsLabel.Font = new System.Drawing.Font("Broadway", 48F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.headerResultsLabel.Location = new System.Drawing.Point(84, 77);
             this.headerResultsLabel.Name = "headerResultsLabel";
@@ -109,16 +116,27 @@
             this.headerResultsLabel.Text = "You arm is this many years old:";
             this.headerResultsLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // CloseButton
+            // ExitButton
             // 
-            this.CloseButton.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.CloseButton.Location = new System.Drawing.Point(596, 760);
-            this.CloseButton.Name = "CloseButton";
-            this.CloseButton.Size = new System.Drawing.Size(100, 45);
-            this.CloseButton.TabIndex = 4;
-            this.CloseButton.Text = "Close";
-            this.CloseButton.UseVisualStyleBackColor = true;
-            this.CloseButton.Click += new System.EventHandler(this.CloseButton_Click);
+            this.ExitButton.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.ExitButton.Location = new System.Drawing.Point(904, 760);
+            this.ExitButton.Name = "ExitButton";
+            this.ExitButton.Size = new System.Drawing.Size(100, 45);
+            this.ExitButton.TabIndex = 4;
+            this.ExitButton.Text = "Exit";
+            this.ExitButton.UseVisualStyleBackColor = true;
+            this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
+            // 
+            // RestartButton
+            // 
+            this.RestartButton.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.RestartButton.Location = new System.Drawing.Point(288, 760);
+            this.RestartButton.Name = "RestartButton";
+            this.RestartButton.Size = new System.Drawing.Size(100, 45);
+            this.RestartButton.TabIndex = 5;
+            this.RestartButton.Text = "Restart";
+            this.RestartButton.UseVisualStyleBackColor = true;
+            this.RestartButton.Click += new System.EventHandler(this.RestartButton_Click);
             // 
             // ResultsForm
             // 
@@ -147,6 +165,7 @@
         private System.Windows.Forms.Label diagnosisResults;
         private System.Windows.Forms.Label ageResult;
         private System.Windows.Forms.Label headerResultsLabel;
-        private System.Windows.Forms.Button CloseButton;
+        private System.Windows.Forms.Button ExitButton;
+        private System.Windows.Forms.Button RestartButton;
     }
 }
