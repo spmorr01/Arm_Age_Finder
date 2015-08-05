@@ -31,12 +31,10 @@ namespace Arm_Age_Finder
         private void Pitcher_CheckBox_CheckedChanged(object sender, EventArgs e)
         {
             CheckBox activeCheckBox = sender as CheckBox;
-
+            Variables.age = 0;
             if (activeCheckBox != lastChecked && lastChecked != null) lastChecked.Checked = false;
             if (activeCheckBox.Checked == true)
             {
-                Variables.age = 0;
-                Variables.age += 5;
                 PitcherForm PitcherForm = new PitcherForm();
                 PitcherForm.Show();
             }
@@ -46,11 +44,10 @@ namespace Arm_Age_Finder
         private void PP_CheckBox_CheckedChanged(object sender, EventArgs e)
         {
             CheckBox activeCheckBox = sender as CheckBox;
+            Variables.age = 0;
             if (activeCheckBox != lastChecked && lastChecked != null) lastChecked.Checked = false;
             if (activeCheckBox.Checked == true)
             {
-                Variables.age = 0;
-                Variables.age -= 1;
                 PositionPlayerForm PPForm = new PositionPlayerForm();
                 PPForm.Show();
             }
@@ -60,11 +57,10 @@ namespace Arm_Age_Finder
         private void Dual_CheckBox_CheckedChanged(object sender, EventArgs e)
         {
             CheckBox activeCheckBox = sender as CheckBox;
+            Variables.age = 0;
             if (activeCheckBox != lastChecked && lastChecked != null) lastChecked.Checked = false;
             if (activeCheckBox.Checked == true)
             {
-                Variables.age = 0;
-                Variables.age += 6;
                 DualPlayerForm DualPlayerForm = new DualPlayerForm();
                 DualPlayerForm.Show();
             }

@@ -12,6 +12,8 @@ namespace Arm_Age_Finder
 {
     public partial class PitcherForm : Form
     {
+        
+
 
         public PitcherForm()
         {
@@ -21,6 +23,7 @@ namespace Arm_Age_Finder
         private void CalculateButton_Click(object sender, EventArgs e)
         {
             bool check;
+            int falseChecks = 0;
             int Question1Answer;
             int Question2Answer;
             int Question3Answer;
@@ -30,6 +33,8 @@ namespace Arm_Age_Finder
             String Question7Answer;
             int Question8Answer;
 
+            Variables.age += 5;
+
             check = int.TryParse(Question1TextBox.Text, out Question1Answer);
             if (check == true)
             {
@@ -37,7 +42,8 @@ namespace Arm_Age_Finder
             }
             else if (check == false)
             {
-                MessageBox.Show("Please enter a valid numeric value on question 1.");
+                falseChecks++;
+                MessageBox.Show("Please enter a valid numeric value on question 1.");     
             }
 
             check = int.TryParse(Question2TextBox.Text, out Question2Answer);
@@ -75,13 +81,13 @@ namespace Arm_Age_Finder
             }
             else if (check == false)
             {
+                falseChecks++;
                 MessageBox.Show("Please enter a valid numeric value on question 2.");
             }
 
             check = int.TryParse(Question3TextBox.Text, out Question3Answer);
             if (check == true)
             {
-                Variables.age += Question1Answer;
                 if (Question3Answer == 0)
                 {
                     Variables.age += 0;
@@ -113,6 +119,7 @@ namespace Arm_Age_Finder
             }
             else if (check == false)
             {
+                falseChecks++;
                 MessageBox.Show("Please enter a valid numeric value on question 3.");
             }
 
@@ -142,6 +149,7 @@ namespace Arm_Age_Finder
             }
             else if (check == false)
             {
+                falseChecks++;
                 MessageBox.Show("Please enter a valid numeric value on question 4.");
             }
 
@@ -154,7 +162,7 @@ namespace Arm_Age_Finder
                 }
                 else if (Question5Answer >= 1  && Question5Answer <= 3)
                 {
-                    Variables.age++;
+                    Variables.age += 1;
                 }
                 else if (Question5Answer == 4)
                 {
@@ -175,6 +183,7 @@ namespace Arm_Age_Finder
             }
             else if (check == false)
             {
+                falseChecks++;
                 MessageBox.Show("Please enter a valid numeric value on question 5.");
             }
 
@@ -187,7 +196,7 @@ namespace Arm_Age_Finder
                 }
                 else if (Question6Answer == 1 || Question6Answer == 2)
                 {
-                    Variables.age++;
+                    Variables.age += 1;
                 }
                 else if (Question6Answer == 3)
                 {
@@ -208,6 +217,7 @@ namespace Arm_Age_Finder
             }
             else if (check == false)
             {
+                falseChecks++;
                 MessageBox.Show("Please enter a valid numeric value on question 6.");
             }
 
@@ -222,8 +232,9 @@ namespace Arm_Age_Finder
                 }
                 else
                 {
+                    falseChecks++;
                     MessageBox.Show("Please format your entry like the example in question 7");
-                }  
+                }
 
             check = int.TryParse(Question8TextBox.Text, out Question8Answer);
             if (check == true)
@@ -247,10 +258,18 @@ namespace Arm_Age_Finder
             }
             else if (check == false)
             {
+                falseChecks++;
                 MessageBox.Show("Please enter a valid numeric value on question 8.");
             }
-            ResultsForm ResultsForm = new ResultsForm();
-            ResultsForm.Show();
+            if (falseChecks == 0)
+            {
+                ResultsForm ResultsForm = new ResultsForm();
+                ResultsForm.Show();
+            }
+            else if (falseChecks > 0)
+            {
+                Variables.age = 0;
+            }
         }
     }
 }
