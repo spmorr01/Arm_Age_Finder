@@ -222,11 +222,11 @@ namespace Arm_Age_Finder
             }
 
             Question7Answer = Question7TextBox.Text;
-                if (Question7Answer == "No" || Question7Answer == "no")
+                if (Question7Answer == "No" || Question7Answer == "no" || Question7Answer == "NO")
                 {
                     Variables.age += 0;
                 }
-                else if (Question7Answer == "Yes" || Question7Answer == "yes")
+                else if (Question7Answer == "Yes" || Question7Answer == "yes" || Question7Answer == "YES")
                 {
                     Variables.age += 2;
                 }
