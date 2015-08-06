@@ -103,7 +103,7 @@
             this.mainFormTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.mainFormTableLayout.Size = new System.Drawing.Size(1320, 640);
             this.mainFormTableLayout.TabIndex = 5;
-            this.mainFormTableLayout.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
+            //this.mainFormTableLayout.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
             // 
             // questionLabel
             // 
@@ -118,7 +118,7 @@
             this.questionLabel.TabIndex = 4;
             this.questionLabel.Text = "What position do you play?";
             this.questionLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.questionLabel.Click += new System.EventHandler(this.questionLabel_Click);
+            //this.questionLabel.Click += new System.EventHandler(this.questionLabel_Click);
             // 
             // Main_Form
             // 

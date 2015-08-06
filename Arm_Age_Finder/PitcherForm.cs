@@ -17,12 +17,6 @@ namespace Arm_Age_Finder
             InitializeComponent();
         }
 
-        protected override void OnFormClosing(FormClosingEventArgs e)
-        {
-            Application.Restart();
-            Environment.Exit(0);
-        }
-
         private void CalculateButton_Click(object sender, EventArgs e)
         {
             bool check;
@@ -149,6 +143,11 @@ namespace Arm_Age_Finder
                 {
                     Variables.age += 4;
                 }
+                else if (Question4Answer > 7)
+                {
+                    falseChecks++;
+                    MessageBox.Show("Please enter a valid number for days on question 4.");
+                }
             }
             else if (check == false)
             {
@@ -182,6 +181,11 @@ namespace Arm_Age_Finder
                 else if (Question5Answer == 7)
                 {
                     Variables.age += 5;
+                }
+                else if (Question4Answer > 7)
+                {
+                    falseChecks++;
+                    MessageBox.Show("Please enter a valid number for days on question 5.");
                 }
             }
             else if (check == false)
@@ -268,7 +272,7 @@ namespace Arm_Age_Finder
             {
                 ResultsForm ResultsForm = new ResultsForm();
                 ResultsForm.Show();
-                this.Close();
+                this.Hide();
             }
             else if (falseChecks > 0)
             {

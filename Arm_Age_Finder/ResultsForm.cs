@@ -51,7 +51,7 @@ namespace Arm_Age_Finder
         private void RestartButton_Click(object sender, EventArgs e)
         {
             Application.Restart();
-            this.Close();
+            Environment.Exit(0);
         }
     }
 }
