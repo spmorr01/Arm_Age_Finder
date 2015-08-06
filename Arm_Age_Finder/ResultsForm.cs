@@ -45,13 +45,13 @@ namespace Arm_Age_Finder
 
         private void ExitButton_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
 
         private void RestartButton_Click(object sender, EventArgs e)
         {
-            Main_Form Main_Form = new Main_Form();
-            Main_Form.Show();  
+            Application.Restart();
+            this.Close();
         }
     }
 }

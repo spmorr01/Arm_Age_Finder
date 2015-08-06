@@ -14,12 +14,15 @@ namespace Arm_Age_Finder
     {
         public PitcherForm checkBoxReply { get; set; }
         CheckBox lastChecked;
+        public static CheckBox activeCheckBox;
         public string position;
+
 
         //public string checkBoxReply;
         public Main_Form()
         {
             InitializeComponent();
+            
         }
 
 
@@ -30,7 +33,7 @@ namespace Arm_Age_Finder
 
         private void Pitcher_CheckBox_CheckedChanged(object sender, EventArgs e)
         {
-            CheckBox activeCheckBox = sender as CheckBox;
+            activeCheckBox = sender as CheckBox;
             Variables.age = 0;
             if (activeCheckBox != lastChecked && lastChecked != null) lastChecked.Checked = false;
             if (activeCheckBox.Checked == true)

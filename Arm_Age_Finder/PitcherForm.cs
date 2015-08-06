@@ -12,12 +12,15 @@ namespace Arm_Age_Finder
 {
     public partial class PitcherForm : Form
     {
-        
-
-
         public PitcherForm()
         {
             InitializeComponent();
+        }
+
+        protected override void OnFormClosing(FormClosingEventArgs e)
+        {
+            Application.Restart();
+            Environment.Exit(0);
         }
 
         private void CalculateButton_Click(object sender, EventArgs e)
@@ -272,5 +275,7 @@ namespace Arm_Age_Finder
                 Variables.age = 0;
             }
         }
+
+        
     }
 }
