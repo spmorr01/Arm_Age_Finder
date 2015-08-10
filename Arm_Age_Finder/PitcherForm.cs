@@ -17,7 +17,7 @@ namespace Arm_Age_Finder
             InitializeComponent();
         }
 
-        private void CalculateButton_Click(object sender, EventArgs e)
+        private void P_CalculateButton_Click(object sender, EventArgs e)
         {
             bool check;
             int falseChecks = 0;

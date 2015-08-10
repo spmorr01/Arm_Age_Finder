@@ -310,7 +310,7 @@
             this.CalculateButton.TabIndex = 18;
             this.CalculateButton.Text = "Calculate";
             this.CalculateButton.UseVisualStyleBackColor = false;
-            this.CalculateButton.Click += new System.EventHandler(this.CalculateButton_Click);
+            this.CalculateButton.Click += new System.EventHandler(this.P_CalculateButton_Click);
             // 
             // Question7
             // 

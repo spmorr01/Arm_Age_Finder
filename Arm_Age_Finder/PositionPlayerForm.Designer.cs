@@ -256,7 +256,7 @@ namespace Arm_Age_Finder
             this.PP_Question2.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.PP_Question2.Size = new System.Drawing.Size(879, 81);
             this.PP_Question2.TabIndex = 1;
-            this.PP_Question2.Text = "What position do you primarily play? (1-9)";
+            this.PP_Question2.Text = "What position do you primarily play? (2-9)";
             this.PP_Question2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // PP_Question1
@@ -314,6 +314,7 @@ namespace Arm_Age_Finder
             this.PP_CalculateButton.TabIndex = 18;
             this.PP_CalculateButton.Text = "Calculate";
             this.PP_CalculateButton.UseVisualStyleBackColor = false;
+            this.PP_CalculateButton.Click += new System.EventHandler(this.PP_CalculateButton_Click);
             // 
             // PP_Question7
             // 
