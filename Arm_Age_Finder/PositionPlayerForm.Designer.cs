@@ -342,6 +342,7 @@ namespace Arm_Age_Finder
             this.Controls.Add(this.positionPlayerFormTableLayout);
             this.Controls.Add(this.headerLabel);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "PositionPlayerForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Position Player";
