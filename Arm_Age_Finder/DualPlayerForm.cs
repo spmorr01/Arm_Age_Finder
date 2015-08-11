@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace Arm_Age_Finder
 {
-    public partial class PitcherForm : Form
+    public partial class DualPlayerForm : Form
     {
-        public PitcherForm()
+        public DualPlayerForm()
         {
             InitializeComponent();
         }
 
-        private void P_CalculateButton_Click(object sender, EventArgs e)
+        private void DP_CalculateButton_Click(object sender, EventArgs e)
         {
             bool check;
             int falseChecks = 0;
@@ -27,12 +27,14 @@ namespace Arm_Age_Finder
             int Question4Answer;
             int Question5Answer;
             int Question6Answer;
-            String Question7Answer;
+            int Question7Answer;
             int Question8Answer;
+            int Question9Answer;
+            int Question10Answer;
 
-            Variables.age += 5;
+            Variables.age += 2;
 
-            check = int.TryParse(P_Question1TextBox.Text, out Question1Answer);
+            check = int.TryParse(DP_Question1TextBox.Text, out Question1Answer);
             if (check == true)
             {
                 Variables.age += Question1Answer;
@@ -40,13 +42,13 @@ namespace Arm_Age_Finder
             else if (check == false)
             {
                 falseChecks++;
-                MessageBox.Show("Please enter a valid numeric value on question 1.");     
+                MessageBox.Show("Please enter a valid numeric value on question 1.");
             }
 
-            check = int.TryParse(P_Question2TextBox.Text, out Question2Answer);
+            check = int.TryParse(DP_Question2TextBox.Text, out Question2Answer);
             if (check == true)
             {
-                
+
                 if (Question2Answer == 0)
                 {
                     Variables.age += 0;
@@ -82,14 +84,14 @@ namespace Arm_Age_Finder
                 MessageBox.Show("Please enter a valid numeric value on question 2.");
             }
 
-            check = int.TryParse(P_Question3TextBox.Text, out Question3Answer);
+            check = int.TryParse(DP_Question3TextBox.Text, out Question3Answer);
             if (check == true)
             {
                 if (Question3Answer == 0)
                 {
                     Variables.age += 0;
                 }
-                else if (Question3Answer >=1 && Question3Answer < 70)
+                else if (Question3Answer >= 1 && Question3Answer < 70)
                 {
                     Variables.age += 1;
                 }
@@ -120,7 +122,7 @@ namespace Arm_Age_Finder
                 MessageBox.Show("Please enter a valid numeric value on question 3.");
             }
 
-            check = int.TryParse(P_Question4TextBox.Text, out Question4Answer);
+            check = int.TryParse(DP_Question4TextBox.Text, out Question4Answer);
             if (check == true)
             {
                 if (Question4Answer == 0)
@@ -155,14 +157,14 @@ namespace Arm_Age_Finder
                 MessageBox.Show("Please enter a valid numeric value on question 4.");
             }
 
-            check = int.TryParse(P_Question5TextBox.Text, out Question5Answer);
+            check = int.TryParse(DP_Question5TextBox.Text, out Question5Answer);
             if (check == true)
             {
                 if (Question5Answer == 0)
                 {
                     Variables.age += 0;
                 }
-                else if (Question5Answer >= 1  && Question5Answer <= 3)
+                else if (Question5Answer >= 1 && Question5Answer <= 3)
                 {
                     Variables.age += 1;
                 }
@@ -194,7 +196,7 @@ namespace Arm_Age_Finder
                 MessageBox.Show("Please enter a valid numeric value on question 5.");
             }
 
-            check = int.TryParse(P_Question6TextBox.Text, out Question6Answer);
+            check = int.TryParse(DP_Question6TextBox.Text, out Question6Answer);
             if (check == true)
             {
                 if (Question6Answer == 0)
@@ -228,37 +230,141 @@ namespace Arm_Age_Finder
                 MessageBox.Show("Please enter a valid numeric value on question 6.");
             }
 
-            Question7Answer = P_Question7TextBox.Text;
-                if (Question7Answer == "No" || Question7Answer == "no" || Question7Answer == "NO" || Question7Answer == "nO")
+            check = int.TryParse(DP_Question7TextBox.Text, out Question7Answer);
+            if (check == true)
+            {
+                if (Question7Answer == 1)
+                {
+                    falseChecks++;
+                    MessageBox.Show("If you are a pitcher only, exit out and try the pitcher's portion of this program.");
+                }
+
+                else if (Question7Answer == 2)
+                {
+                    Variables.age += 2;
+                }
+                else if (Question7Answer == 3)
                 {
                     Variables.age += 0;
                 }
-                else if (Question7Answer == "Yes" || Question7Answer == "yes" || Question7Answer == "YES" || Question7Answer == "yEs" || Question7Answer == "yeS" || Question7Answer == "yES" || Question7Answer == "YEs")
+                else if (Question7Answer == 4)
+                {
+                    Variables.age += 0;
+                }
+                else if (Question7Answer == 5)
+                {
+                    Variables.age += 1;
+                }
+                else if (Question7Answer == 6)
+                {
+                    Variables.age += 1;
+                }
+                else if (Question7Answer == 7 || Question7Answer == 8)
+                {
+                    Variables.age += 1;
+                }
+                else if (Question7Answer == 9)
                 {
                     Variables.age += 2;
                 }
                 else
                 {
                     falseChecks++;
-                    MessageBox.Show("Please format your entry like the example in question 7");
+                    MessageBox.Show("Please enter a valid position number on question 7.");
                 }
+            }
+            else if (check == false)
+            {
+                falseChecks++;
+                MessageBox.Show("Please enter a valid numeric value on question 7.");
+            }
 
-            check = int.TryParse(P_Question8TextBox.Text, out Question8Answer);
+            check = int.TryParse(DP_Question8TextBox.Text, out Question8Answer);
             if (check == true)
             {
                 if (Question8Answer == 0)
                 {
                     Variables.age += 0;
                 }
-                else if (Question8Answer == 1)
+                else if (Question8Answer > 0 && Question8Answer < 5)
+                {
+                    Variables.age++;
+                }
+                else if (Question8Answer >= 5 && Question8Answer < 10)
+                {
+                    Variables.age += 2;
+                }
+                else if (Question8Answer >= 10 && Question8Answer < 15)
+                {
+                    Variables.age += 3;
+                }
+                else if (Question8Answer >= 15 && Question8Answer < 20)
+                {
+                    Variables.age += 4;
+                }
+                else if (Question8Answer >= 20 && Question8Answer < 25)
                 {
                     Variables.age += 5;
                 }
-                else if (Question8Answer == 2)
+                else
+                {
+                    Variables.age += 6;
+                }
+            }
+
+            else if (check == false)
+            {
+                falseChecks++;
+                MessageBox.Show("Please enter a valid numeric value on question 8.");
+            }
+
+            check = int.TryParse(DP_Question9TextBox.Text, out Question9Answer);
+            if (check == true)
+            {
+                if (Question9Answer == 0)
+                {
+                    Variables.age += 0;
+                }
+                else if (Question9Answer >= 0 && Question9Answer <= 4)
+                {
+                    Variables.age += 1;
+                }
+                else if (Question9Answer >= 5 && Question9Answer <= 9)
+                {
+                    Variables.age += 2;
+                }
+                else if (Question9Answer >= 10 && Question9Answer <= 14)
+                {
+                    Variables.age += 3;
+                }
+                else if (Question9Answer >= 15)
+                {
+                    Variables.age += 4;
+                }
+            }
+
+            else if (check == false)
+            {
+                falseChecks++;
+                MessageBox.Show("Please enter a valid numeric value on question 9.");
+            }
+
+            check = int.TryParse(DP_Question10TextBox.Text, out Question10Answer);
+            if (check == true)
+            {
+                if (Question10Answer == 0)
+                {
+                    Variables.age += 0;
+                }
+                else if (Question10Answer == 1)
+                {
+                    Variables.age += 5;
+                }
+                else if (Question10Answer == 2)
                 {
                     Variables.age += 10;
                 }
-                else if (Question8Answer > 2)
+                else if (Question10Answer > 2)
                 {
                     Variables.age += 15;
                 }
@@ -266,8 +372,9 @@ namespace Arm_Age_Finder
             else if (check == false)
             {
                 falseChecks++;
-                MessageBox.Show("Please enter a valid numeric value on question 8.");
+                MessageBox.Show("Please enter a valid numeric value on question 7.");
             }
+
             if (falseChecks == 0)
             {
                 ResultsForm ResultsForm = new ResultsForm();
@@ -280,6 +387,5 @@ namespace Arm_Age_Finder
             }
         }
 
-        
     }
 }
