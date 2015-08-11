@@ -31,7 +31,7 @@ namespace Arm_Age_Finder
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PositionPlayerForm));
             this.label1 = new System.Windows.Forms.Label();
             this.headerLabel = new System.Windows.Forms.Label();
-            this.pitcherFormTableLayout = new System.Windows.Forms.TableLayoutPanel();
+            this.positionPlayerFormTableLayout = new System.Windows.Forms.TableLayoutPanel();
             this.PP_Question7TextBox = new System.Windows.Forms.TextBox();
             this.PP_Question6TextBox = new System.Windows.Forms.TextBox();
             this.PP_Question5TextBox = new System.Windows.Forms.TextBox();
@@ -48,7 +48,7 @@ namespace Arm_Age_Finder
             this.PP_Question1TextBox = new System.Windows.Forms.TextBox();
             this.PP_CalculateButton = new System.Windows.Forms.Button();
             this.PP_Question7 = new System.Windows.Forms.Label();
-            this.pitcherFormTableLayout.SuspendLayout();
+            this.positionPlayerFormTableLayout.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -73,44 +73,44 @@ namespace Arm_Age_Finder
             this.headerLabel.TabIndex = 9;
             this.headerLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // pitcherFormTableLayout
+            // positionPlayerFormTableLayout
             // 
-            this.pitcherFormTableLayout.BackColor = System.Drawing.Color.Transparent;
-            this.pitcherFormTableLayout.ColumnCount = 2;
-            this.pitcherFormTableLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 75F));
-            this.pitcherFormTableLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.pitcherFormTableLayout.Controls.Add(this.PP_Question7TextBox, 1, 7);
-            this.pitcherFormTableLayout.Controls.Add(this.PP_Question6TextBox, 1, 6);
-            this.pitcherFormTableLayout.Controls.Add(this.PP_Question5TextBox, 1, 5);
-            this.pitcherFormTableLayout.Controls.Add(this.PP_Question4TextBox, 1, 4);
-            this.pitcherFormTableLayout.Controls.Add(this.PP_Question3TextBox, 1, 3);
-            this.pitcherFormTableLayout.Controls.Add(this.PP_Question2TextBox, 1, 2);
-            this.pitcherFormTableLayout.Controls.Add(this.PP_Question6, 0, 6);
-            this.pitcherFormTableLayout.Controls.Add(this.PP_Question5, 0, 5);
-            this.pitcherFormTableLayout.Controls.Add(this.PP_Question4, 0, 4);
-            this.pitcherFormTableLayout.Controls.Add(this.PP_Question3, 0, 3);
-            this.pitcherFormTableLayout.Controls.Add(this.PP_Question2, 0, 2);
-            this.pitcherFormTableLayout.Controls.Add(this.PP_Question1, 0, 1);
-            this.pitcherFormTableLayout.Controls.Add(this.PP_HeaderLabel, 0, 0);
-            this.pitcherFormTableLayout.Controls.Add(this.PP_Question1TextBox, 1, 1);
-            this.pitcherFormTableLayout.Controls.Add(this.PP_CalculateButton, 0, 8);
-            this.pitcherFormTableLayout.Controls.Add(this.PP_Question7, 0, 7);
-            this.pitcherFormTableLayout.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pitcherFormTableLayout.Location = new System.Drawing.Point(0, 0);
-            this.pitcherFormTableLayout.Name = "pitcherFormTableLayout";
-            this.pitcherFormTableLayout.RowCount = 9;
-            this.pitcherFormTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.pitcherFormTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.pitcherFormTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.pitcherFormTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.pitcherFormTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.pitcherFormTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.pitcherFormTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.pitcherFormTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.pitcherFormTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.pitcherFormTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.pitcherFormTableLayout.Size = new System.Drawing.Size(1181, 733);
-            this.pitcherFormTableLayout.TabIndex = 10;
+            this.positionPlayerFormTableLayout.BackColor = System.Drawing.Color.Transparent;
+            this.positionPlayerFormTableLayout.ColumnCount = 2;
+            this.positionPlayerFormTableLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 75F));
+            this.positionPlayerFormTableLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.positionPlayerFormTableLayout.Controls.Add(this.PP_Question7TextBox, 1, 7);
+            this.positionPlayerFormTableLayout.Controls.Add(this.PP_Question6TextBox, 1, 6);
+            this.positionPlayerFormTableLayout.Controls.Add(this.PP_Question5TextBox, 1, 5);
+            this.positionPlayerFormTableLayout.Controls.Add(this.PP_Question4TextBox, 1, 4);
+            this.positionPlayerFormTableLayout.Controls.Add(this.PP_Question3TextBox, 1, 3);
+            this.positionPlayerFormTableLayout.Controls.Add(this.PP_Question2TextBox, 1, 2);
+            this.positionPlayerFormTableLayout.Controls.Add(this.PP_Question6, 0, 6);
+            this.positionPlayerFormTableLayout.Controls.Add(this.PP_Question5, 0, 5);
+            this.positionPlayerFormTableLayout.Controls.Add(this.PP_Question4, 0, 4);
+            this.positionPlayerFormTableLayout.Controls.Add(this.PP_Question3, 0, 3);
+            this.positionPlayerFormTableLayout.Controls.Add(this.PP_Question2, 0, 2);
+            this.positionPlayerFormTableLayout.Controls.Add(this.PP_Question1, 0, 1);
+            this.positionPlayerFormTableLayout.Controls.Add(this.PP_HeaderLabel, 0, 0);
+            this.positionPlayerFormTableLayout.Controls.Add(this.PP_Question1TextBox, 1, 1);
+            this.positionPlayerFormTableLayout.Controls.Add(this.PP_CalculateButton, 0, 8);
+            this.positionPlayerFormTableLayout.Controls.Add(this.PP_Question7, 0, 7);
+            this.positionPlayerFormTableLayout.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.positionPlayerFormTableLayout.Location = new System.Drawing.Point(0, 0);
+            this.positionPlayerFormTableLayout.Name = "positionPlayerFormTableLayout";
+            this.positionPlayerFormTableLayout.RowCount = 9;
+            this.positionPlayerFormTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.positionPlayerFormTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.positionPlayerFormTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.positionPlayerFormTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.positionPlayerFormTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.positionPlayerFormTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.positionPlayerFormTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.positionPlayerFormTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.positionPlayerFormTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.positionPlayerFormTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.positionPlayerFormTableLayout.Size = new System.Drawing.Size(1181, 733);
+            this.positionPlayerFormTableLayout.TabIndex = 10;
             // 
             // PP_Question7TextBox
             // 
@@ -281,7 +281,7 @@ namespace Arm_Age_Finder
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.PP_HeaderLabel.AutoSize = true;
-            this.pitcherFormTableLayout.SetColumnSpan(this.PP_HeaderLabel, 2);
+            this.positionPlayerFormTableLayout.SetColumnSpan(this.PP_HeaderLabel, 2);
             this.PP_HeaderLabel.Font = new System.Drawing.Font("Segoe Script", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PP_HeaderLabel.ForeColor = System.Drawing.Color.Gold;
             this.PP_HeaderLabel.Location = new System.Drawing.Point(3, 0);
@@ -306,7 +306,7 @@ namespace Arm_Age_Finder
             // 
             this.PP_CalculateButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.PP_CalculateButton.BackColor = System.Drawing.Color.Gold;
-            this.pitcherFormTableLayout.SetColumnSpan(this.PP_CalculateButton, 2);
+            this.positionPlayerFormTableLayout.SetColumnSpan(this.PP_CalculateButton, 2);
             this.PP_CalculateButton.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PP_CalculateButton.Location = new System.Drawing.Point(536, 668);
             this.PP_CalculateButton.Name = "PP_CalculateButton";
@@ -339,15 +339,15 @@ namespace Arm_Age_Finder
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1181, 733);
-            this.Controls.Add(this.pitcherFormTableLayout);
+            this.Controls.Add(this.positionPlayerFormTableLayout);
             this.Controls.Add(this.headerLabel);
             this.Controls.Add(this.label1);
             this.Name = "PositionPlayerForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Position Player";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.pitcherFormTableLayout.ResumeLayout(false);
-            this.pitcherFormTableLayout.PerformLayout();
+            this.positionPlayerFormTableLayout.ResumeLayout(false);
+            this.positionPlayerFormTableLayout.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -357,7 +357,7 @@ namespace Arm_Age_Finder
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label headerLabel;
-        private System.Windows.Forms.TableLayoutPanel pitcherFormTableLayout;
+        private System.Windows.Forms.TableLayoutPanel positionPlayerFormTableLayout;
         private System.Windows.Forms.TextBox PP_Question7TextBox;
         private System.Windows.Forms.TextBox PP_Question6TextBox;
         private System.Windows.Forms.TextBox PP_Question5TextBox;
