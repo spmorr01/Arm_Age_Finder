@@ -229,11 +229,11 @@ namespace Arm_Age_Finder
             }
 
             Question7Answer = Question7TextBox.Text;
-                if (Question7Answer == "No" || Question7Answer == "no" || Question7Answer == "NO")
+                if (Question7Answer == "No" || Question7Answer == "no" || Question7Answer == "NO" || Question7Answer == "nO")
                 {
                     Variables.age += 0;
                 }
-                else if (Question7Answer == "Yes" || Question7Answer == "yes" || Question7Answer == "YES")
+                else if (Question7Answer == "Yes" || Question7Answer == "yes" || Question7Answer == "YES" || Question7Answer == "yEs" || Question7Answer == "yeS" || Question7Answer == "yES" || Question7Answer == "YEs")
                 {
                     Variables.age += 2;
                 }
@@ -270,8 +270,8 @@ namespace Arm_Age_Finder
             }
             if (falseChecks == 0)
             {
-                ResultsForm ResultsForm = new ResultsForm();
-                ResultsForm.Show();
+                //ResultsForm ResultsForm = new ResultsForm();
+                Variables.ResultsForm.Show();
                 this.Hide();
             }
             else if (falseChecks > 0)
