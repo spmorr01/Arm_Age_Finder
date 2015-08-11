@@ -234,13 +234,13 @@ namespace Arm_Age_Finder
             else if (check == false)
             {
                 falseChecks++;
-                MessageBox.Show("Please enter a valid numeric value on question 8.");
+                MessageBox.Show("Please enter a valid numeric value on question 7.");
             }
 
             if (falseChecks == 0)
             {
-                //ResultsForm ResultsForm = new ResultsForm();
-                Variables.ResultsForm.Show();
+                ResultsForm ResultsForm = new ResultsForm();
+                ResultsForm.Show();
                 this.Hide();
             }
             else if (falseChecks > 0)

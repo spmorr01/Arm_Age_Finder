@@ -270,8 +270,8 @@ namespace Arm_Age_Finder
             }
             if (falseChecks == 0)
             {
-                //ResultsForm ResultsForm = new ResultsForm();
-                Variables.ResultsForm.Show();
+                ResultsForm ResultsForm = new ResultsForm();
+                ResultsForm.Show();
                 this.Hide();
             }
             else if (falseChecks > 0)
