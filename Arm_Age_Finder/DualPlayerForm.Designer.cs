@@ -36,17 +36,17 @@ namespace Arm_Age_Finder
             this.DP_Question4TextBox = new System.Windows.Forms.TextBox();
             this.DP_Question3TextBox = new System.Windows.Forms.TextBox();
             this.DP_Question2TextBox = new System.Windows.Forms.TextBox();
-            this.DP_Question3 = new System.Windows.Forms.Label();
-            this.DP_Question4 = new System.Windows.Forms.Label();
-            this.DP_Question9 = new System.Windows.Forms.Label();
-            this.DP_Question8 = new System.Windows.Forms.Label();
-            this.DP_Question7 = new System.Windows.Forms.Label();
             this.DP_Question1 = new System.Windows.Forms.Label();
             this.DP_HeaderLabel = new System.Windows.Forms.Label();
             this.DP_Question1TextBox = new System.Windows.Forms.TextBox();
             this.DP_CalculateButton = new System.Windows.Forms.Button();
             this.DP_Question10 = new System.Windows.Forms.Label();
             this.DP_Question2 = new System.Windows.Forms.Label();
+            this.DP_Question9 = new System.Windows.Forms.Label();
+            this.DP_Question8 = new System.Windows.Forms.Label();
+            this.DP_Question7 = new System.Windows.Forms.Label();
+            this.DP_Question3 = new System.Windows.Forms.Label();
+            this.DP_Question4 = new System.Windows.Forms.Label();
             this.DP_Question5 = new System.Windows.Forms.Label();
             this.DP_Question6 = new System.Windows.Forms.Label();
             this.DP_Question8TextBox = new System.Windows.Forms.TextBox();
@@ -169,87 +169,6 @@ namespace Arm_Age_Finder
             this.DP_Question2TextBox.TabIndex = 10;
             this.DP_Question2TextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // DP_Question3
-            // 
-            this.DP_Question3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.DP_Question3.AutoSize = true;
-            this.DP_Question3.Font = new System.Drawing.Font("Segoe Script", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DP_Question3.ForeColor = System.Drawing.Color.Gold;
-            this.DP_Question3.Location = new System.Drawing.Point(3, 171);
-            this.DP_Question3.Name = "DP_Question3";
-            this.DP_Question3.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.DP_Question3.Size = new System.Drawing.Size(754, 57);
-            this.DP_Question3.TabIndex = 5;
-            this.DP_Question3.Text = "How hard do you throw? (MPH)";
-            this.DP_Question3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // DP_Question4
-            // 
-            this.DP_Question4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.DP_Question4.AutoSize = true;
-            this.DP_Question4.Font = new System.Drawing.Font("Segoe Script", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DP_Question4.ForeColor = System.Drawing.Color.Gold;
-            this.DP_Question4.Location = new System.Drawing.Point(3, 228);
-            this.DP_Question4.Name = "DP_Question4";
-            this.DP_Question4.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.DP_Question4.Size = new System.Drawing.Size(754, 57);
-            this.DP_Question4.TabIndex = 4;
-            this.DP_Question4.Text = "How many days a week do you play catch?";
-            this.DP_Question4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // DP_Question9
-            // 
-            this.DP_Question9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.DP_Question9.AutoSize = true;
-            this.DP_Question9.Font = new System.Drawing.Font("Segoe Script", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DP_Question9.ForeColor = System.Drawing.Color.Gold;
-            this.DP_Question9.Location = new System.Drawing.Point(3, 513);
-            this.DP_Question9.Name = "DP_Question9";
-            this.DP_Question9.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.DP_Question9.Size = new System.Drawing.Size(754, 57);
-            this.DP_Question9.TabIndex = 3;
-            this.DP_Question9.Text = "About how many plays are you apart of each game?";
-            this.DP_Question9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // DP_Question8
-            // 
-            this.DP_Question8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.DP_Question8.AutoSize = true;
-            this.DP_Question8.Font = new System.Drawing.Font("Segoe Script", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DP_Question8.ForeColor = System.Drawing.Color.Gold;
-            this.DP_Question8.Location = new System.Drawing.Point(3, 456);
-            this.DP_Question8.Name = "DP_Question8";
-            this.DP_Question8.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.DP_Question8.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.DP_Question8.Size = new System.Drawing.Size(754, 57);
-            this.DP_Question8.TabIndex = 2;
-            this.DP_Question8.Text = "How many years have you been playing this position?";
-            this.DP_Question8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // DP_Question7
-            // 
-            this.DP_Question7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.DP_Question7.AutoSize = true;
-            this.DP_Question7.Font = new System.Drawing.Font("Segoe Script", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DP_Question7.ForeColor = System.Drawing.Color.Gold;
-            this.DP_Question7.Location = new System.Drawing.Point(3, 399);
-            this.DP_Question7.Name = "DP_Question7";
-            this.DP_Question7.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.DP_Question7.Size = new System.Drawing.Size(754, 57);
-            this.DP_Question7.TabIndex = 1;
-            this.DP_Question7.Text = "What position do you primarily play? (2-9)";
-            this.DP_Question7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
             // DP_Question1
             // 
             this.DP_Question1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -302,7 +221,7 @@ namespace Arm_Age_Finder
             this.DP_CalculateButton.Location = new System.Drawing.Point(453, 637);
             this.DP_CalculateButton.Name = "DP_CalculateButton";
             this.DP_CalculateButton.Size = new System.Drawing.Size(108, 44);
-            this.DP_CalculateButton.TabIndex = 18;
+            this.DP_CalculateButton.TabIndex = 19;
             this.DP_CalculateButton.Text = "Calculate";
             this.DP_CalculateButton.UseVisualStyleBackColor = false;
             this.DP_CalculateButton.Click += new System.EventHandler(this.DP_CalculateButton_Click);
@@ -338,6 +257,87 @@ namespace Arm_Age_Finder
             this.DP_Question2.TabIndex = 19;
             this.DP_Question2.Text = "How many years have you been pitching?";
             this.DP_Question2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // DP_Question9
+            // 
+            this.DP_Question9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.DP_Question9.AutoSize = true;
+            this.DP_Question9.Font = new System.Drawing.Font("Segoe Script", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DP_Question9.ForeColor = System.Drawing.Color.Gold;
+            this.DP_Question9.Location = new System.Drawing.Point(3, 513);
+            this.DP_Question9.Name = "DP_Question9";
+            this.DP_Question9.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.DP_Question9.Size = new System.Drawing.Size(754, 57);
+            this.DP_Question9.TabIndex = 3;
+            this.DP_Question9.Text = "About how many plays are you apart of each game?";
+            this.DP_Question9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // DP_Question8
+            // 
+            this.DP_Question8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.DP_Question8.AutoSize = true;
+            this.DP_Question8.Font = new System.Drawing.Font("Segoe Script", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DP_Question8.ForeColor = System.Drawing.Color.Gold;
+            this.DP_Question8.Location = new System.Drawing.Point(3, 456);
+            this.DP_Question8.Name = "DP_Question8";
+            this.DP_Question8.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.DP_Question8.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.DP_Question8.Size = new System.Drawing.Size(754, 57);
+            this.DP_Question8.TabIndex = 2;
+            this.DP_Question8.Text = "How many years have you been playing this position?";
+            this.DP_Question8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // DP_Question7
+            // 
+            this.DP_Question7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.DP_Question7.AutoSize = true;
+            this.DP_Question7.Font = new System.Drawing.Font("Segoe Script", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DP_Question7.ForeColor = System.Drawing.Color.Gold;
+            this.DP_Question7.Location = new System.Drawing.Point(3, 399);
+            this.DP_Question7.Name = "DP_Question7";
+            this.DP_Question7.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.DP_Question7.Size = new System.Drawing.Size(754, 57);
+            this.DP_Question7.TabIndex = 1;
+            this.DP_Question7.Text = "What position do you primarily play? (2-9)";
+            this.DP_Question7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // DP_Question3
+            // 
+            this.DP_Question3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.DP_Question3.AutoSize = true;
+            this.DP_Question3.Font = new System.Drawing.Font("Segoe Script", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DP_Question3.ForeColor = System.Drawing.Color.Gold;
+            this.DP_Question3.Location = new System.Drawing.Point(3, 171);
+            this.DP_Question3.Name = "DP_Question3";
+            this.DP_Question3.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.DP_Question3.Size = new System.Drawing.Size(754, 57);
+            this.DP_Question3.TabIndex = 5;
+            this.DP_Question3.Text = "How hard do you throw? (MPH)";
+            this.DP_Question3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // DP_Question4
+            // 
+            this.DP_Question4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.DP_Question4.AutoSize = true;
+            this.DP_Question4.Font = new System.Drawing.Font("Segoe Script", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DP_Question4.ForeColor = System.Drawing.Color.Gold;
+            this.DP_Question4.Location = new System.Drawing.Point(3, 228);
+            this.DP_Question4.Name = "DP_Question4";
+            this.DP_Question4.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.DP_Question4.Size = new System.Drawing.Size(754, 57);
+            this.DP_Question4.TabIndex = 4;
+            this.DP_Question4.Text = "How many days a week do you play catch?";
+            this.DP_Question4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // DP_Question5
             // 
@@ -379,7 +379,7 @@ namespace Arm_Age_Finder
             this.DP_Question8TextBox.Location = new System.Drawing.Point(837, 464);
             this.DP_Question8TextBox.Name = "DP_Question8TextBox";
             this.DP_Question8TextBox.Size = new System.Drawing.Size(100, 40);
-            this.DP_Question8TextBox.TabIndex = 22;
+            this.DP_Question8TextBox.TabIndex = 16;
             this.DP_Question8TextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // DP_Question9TextBox
@@ -390,8 +390,8 @@ namespace Arm_Age_Finder
             this.DP_Question9TextBox.Location = new System.Drawing.Point(837, 521);
             this.DP_Question9TextBox.Name = "DP_Question9TextBox";
             this.DP_Question9TextBox.Size = new System.Drawing.Size(100, 40);
-            this.DP_Question9TextBox.TabIndex = 23;
-            this.DP_Question9TextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.DP_Question9TextBox.TabIndex = 17;
+            this.DP_Question9TextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // DP_Question10TextBox
             // 
@@ -401,7 +401,7 @@ namespace Arm_Age_Finder
             this.DP_Question10TextBox.Location = new System.Drawing.Point(837, 578);
             this.DP_Question10TextBox.Name = "DP_Question10TextBox";
             this.DP_Question10TextBox.Size = new System.Drawing.Size(100, 40);
-            this.DP_Question10TextBox.TabIndex = 24;
+            this.DP_Question10TextBox.TabIndex = 18;
             this.DP_Question10TextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // DualPlayerForm

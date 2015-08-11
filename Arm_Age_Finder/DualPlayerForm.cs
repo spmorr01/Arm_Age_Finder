@@ -372,7 +372,7 @@ namespace Arm_Age_Finder
             else if (check == false)
             {
                 falseChecks++;
-                MessageBox.Show("Please enter a valid numeric value on question 7.");
+                MessageBox.Show("Please enter a valid numeric value on question 10.");
             }
 
             if (falseChecks == 0)
