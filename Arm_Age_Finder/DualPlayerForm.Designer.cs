@@ -1,4 +1,4 @@
-﻿namespace Arm_Age_Finder
+namespace Arm_Age_Finder
 {
     partial class DualPlayerForm
     {
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DualPlayerForm));
-            this.pitcherFormTableLayout = new System.Windows.Forms.TableLayoutPanel();
+            this.dualPlayerFormTableLayout = new System.Windows.Forms.TableLayoutPanel();
             this.DP_Question7TextBox = new System.Windows.Forms.TextBox();
             this.DP_Question6TextBox = new System.Windows.Forms.TextBox();
             this.DP_Question5TextBox = new System.Windows.Forms.TextBox();
@@ -41,7 +41,7 @@
             this.DP_Question9 = new System.Windows.Forms.Label();
             this.DP_Question8 = new System.Windows.Forms.Label();
             this.DP_Question7 = new System.Windows.Forms.Label();
-            this.PP_Question1 = new System.Windows.Forms.Label();
+            this.DP_Question1 = new System.Windows.Forms.Label();
             this.DP_HeaderLabel = new System.Windows.Forms.Label();
             this.DP_Question1TextBox = new System.Windows.Forms.TextBox();
             this.DP_CalculateButton = new System.Windows.Forms.Button();
@@ -52,56 +52,56 @@
             this.DP_Question8TextBox = new System.Windows.Forms.TextBox();
             this.DP_Question9TextBox = new System.Windows.Forms.TextBox();
             this.DP_Question10TextBox = new System.Windows.Forms.TextBox();
-            this.pitcherFormTableLayout.SuspendLayout();
+            this.dualPlayerFormTableLayout.SuspendLayout();
             this.SuspendLayout();
             // 
-            // pitcherFormTableLayout
+            // dualPlayerFormTableLayout
             // 
-            this.pitcherFormTableLayout.BackColor = System.Drawing.Color.Transparent;
-            this.pitcherFormTableLayout.ColumnCount = 2;
-            this.pitcherFormTableLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 75F));
-            this.pitcherFormTableLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.pitcherFormTableLayout.Controls.Add(this.DP_Question7TextBox, 1, 7);
-            this.pitcherFormTableLayout.Controls.Add(this.DP_Question6TextBox, 1, 6);
-            this.pitcherFormTableLayout.Controls.Add(this.DP_Question5TextBox, 1, 5);
-            this.pitcherFormTableLayout.Controls.Add(this.DP_Question4TextBox, 1, 4);
-            this.pitcherFormTableLayout.Controls.Add(this.DP_Question3TextBox, 1, 3);
-            this.pitcherFormTableLayout.Controls.Add(this.DP_Question2TextBox, 1, 2);
-            this.pitcherFormTableLayout.Controls.Add(this.PP_Question1, 0, 1);
-            this.pitcherFormTableLayout.Controls.Add(this.DP_HeaderLabel, 0, 0);
-            this.pitcherFormTableLayout.Controls.Add(this.DP_Question1TextBox, 1, 1);
-            this.pitcherFormTableLayout.Controls.Add(this.DP_CalculateButton, 0, 11);
-            this.pitcherFormTableLayout.Controls.Add(this.DP_Question10, 0, 10);
-            this.pitcherFormTableLayout.Controls.Add(this.DP_Question2, 0, 2);
-            this.pitcherFormTableLayout.Controls.Add(this.DP_Question9, 0, 9);
-            this.pitcherFormTableLayout.Controls.Add(this.DP_Question8, 0, 8);
-            this.pitcherFormTableLayout.Controls.Add(this.DP_Question7, 0, 7);
-            this.pitcherFormTableLayout.Controls.Add(this.DP_Question3, 0, 3);
-            this.pitcherFormTableLayout.Controls.Add(this.DP_Question4, 0, 4);
-            this.pitcherFormTableLayout.Controls.Add(this.DP_Question5, 0, 5);
-            this.pitcherFormTableLayout.Controls.Add(this.DP_Question6, 0, 6);
-            this.pitcherFormTableLayout.Controls.Add(this.DP_Question8TextBox, 1, 8);
-            this.pitcherFormTableLayout.Controls.Add(this.DP_Question9TextBox, 1, 9);
-            this.pitcherFormTableLayout.Controls.Add(this.DP_Question10TextBox, 1, 10);
-            this.pitcherFormTableLayout.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pitcherFormTableLayout.Location = new System.Drawing.Point(0, 0);
-            this.pitcherFormTableLayout.Name = "pitcherFormTableLayout";
-            this.pitcherFormTableLayout.RowCount = 12;
-            this.pitcherFormTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
-            this.pitcherFormTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
-            this.pitcherFormTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
-            this.pitcherFormTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
-            this.pitcherFormTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
-            this.pitcherFormTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
-            this.pitcherFormTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
-            this.pitcherFormTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
-            this.pitcherFormTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
-            this.pitcherFormTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
-            this.pitcherFormTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
-            this.pitcherFormTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
-            this.pitcherFormTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.pitcherFormTableLayout.Size = new System.Drawing.Size(1014, 691);
-            this.pitcherFormTableLayout.TabIndex = 11;
+            this.dualPlayerFormTableLayout.BackColor = System.Drawing.Color.Transparent;
+            this.dualPlayerFormTableLayout.ColumnCount = 2;
+            this.dualPlayerFormTableLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 75F));
+            this.dualPlayerFormTableLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.dualPlayerFormTableLayout.Controls.Add(this.DP_Question7TextBox, 1, 7);
+            this.dualPlayerFormTableLayout.Controls.Add(this.DP_Question6TextBox, 1, 6);
+            this.dualPlayerFormTableLayout.Controls.Add(this.DP_Question5TextBox, 1, 5);
+            this.dualPlayerFormTableLayout.Controls.Add(this.DP_Question4TextBox, 1, 4);
+            this.dualPlayerFormTableLayout.Controls.Add(this.DP_Question3TextBox, 1, 3);
+            this.dualPlayerFormTableLayout.Controls.Add(this.DP_Question2TextBox, 1, 2);
+            this.dualPlayerFormTableLayout.Controls.Add(this.DP_Question1, 0, 1);
+            this.dualPlayerFormTableLayout.Controls.Add(this.DP_HeaderLabel, 0, 0);
+            this.dualPlayerFormTableLayout.Controls.Add(this.DP_Question1TextBox, 1, 1);
+            this.dualPlayerFormTableLayout.Controls.Add(this.DP_CalculateButton, 0, 11);
+            this.dualPlayerFormTableLayout.Controls.Add(this.DP_Question10, 0, 10);
+            this.dualPlayerFormTableLayout.Controls.Add(this.DP_Question2, 0, 2);
+            this.dualPlayerFormTableLayout.Controls.Add(this.DP_Question9, 0, 9);
+            this.dualPlayerFormTableLayout.Controls.Add(this.DP_Question8, 0, 8);
+            this.dualPlayerFormTableLayout.Controls.Add(this.DP_Question7, 0, 7);
+            this.dualPlayerFormTableLayout.Controls.Add(this.DP_Question3, 0, 3);
+            this.dualPlayerFormTableLayout.Controls.Add(this.DP_Question4, 0, 4);
+            this.dualPlayerFormTableLayout.Controls.Add(this.DP_Question5, 0, 5);
+            this.dualPlayerFormTableLayout.Controls.Add(this.DP_Question6, 0, 6);
+            this.dualPlayerFormTableLayout.Controls.Add(this.DP_Question8TextBox, 1, 8);
+            this.dualPlayerFormTableLayout.Controls.Add(this.DP_Question9TextBox, 1, 9);
+            this.dualPlayerFormTableLayout.Controls.Add(this.DP_Question10TextBox, 1, 10);
+            this.dualPlayerFormTableLayout.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dualPlayerFormTableLayout.Location = new System.Drawing.Point(0, 0);
+            this.dualPlayerFormTableLayout.Name = "dualPlayerFormTableLayout";
+            this.dualPlayerFormTableLayout.RowCount = 12;
+            this.dualPlayerFormTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
+            this.dualPlayerFormTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
+            this.dualPlayerFormTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
+            this.dualPlayerFormTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
+            this.dualPlayerFormTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
+            this.dualPlayerFormTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
+            this.dualPlayerFormTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
+            this.dualPlayerFormTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
+            this.dualPlayerFormTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
+            this.dualPlayerFormTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
+            this.dualPlayerFormTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
+            this.dualPlayerFormTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
+            this.dualPlayerFormTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.dualPlayerFormTableLayout.Size = new System.Drawing.Size(1014, 691);
+            this.dualPlayerFormTableLayout.TabIndex = 11;
             // 
             // DP_Question7TextBox
             // 
@@ -250,21 +250,21 @@
             this.DP_Question7.Text = "What position do you primarily play? (2-9)";
             this.DP_Question7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // PP_Question1
+            // DP_Question1
             // 
-            this.PP_Question1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.DP_Question1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.PP_Question1.AutoSize = true;
-            this.PP_Question1.Font = new System.Drawing.Font("Segoe Script", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PP_Question1.ForeColor = System.Drawing.Color.Gold;
-            this.PP_Question1.Location = new System.Drawing.Point(3, 57);
-            this.PP_Question1.Name = "PP_Question1";
-            this.PP_Question1.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.PP_Question1.Size = new System.Drawing.Size(754, 57);
-            this.PP_Question1.TabIndex = 0;
-            this.PP_Question1.Text = "How old are you?";
-            this.PP_Question1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.DP_Question1.AutoSize = true;
+            this.DP_Question1.Font = new System.Drawing.Font("Segoe Script", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DP_Question1.ForeColor = System.Drawing.Color.Gold;
+            this.DP_Question1.Location = new System.Drawing.Point(3, 57);
+            this.DP_Question1.Name = "DP_Question1";
+            this.DP_Question1.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.DP_Question1.Size = new System.Drawing.Size(754, 57);
+            this.DP_Question1.TabIndex = 0;
+            this.DP_Question1.Text = "How old are you?";
+            this.DP_Question1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // DP_HeaderLabel
             // 
@@ -272,7 +272,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.DP_HeaderLabel.AutoSize = true;
-            this.pitcherFormTableLayout.SetColumnSpan(this.DP_HeaderLabel, 2);
+            this.dualPlayerFormTableLayout.SetColumnSpan(this.DP_HeaderLabel, 2);
             this.DP_HeaderLabel.Font = new System.Drawing.Font("Segoe Script", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DP_HeaderLabel.ForeColor = System.Drawing.Color.Gold;
             this.DP_HeaderLabel.Location = new System.Drawing.Point(3, 0);
@@ -297,7 +297,7 @@
             // 
             this.DP_CalculateButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.DP_CalculateButton.BackColor = System.Drawing.Color.Gold;
-            this.pitcherFormTableLayout.SetColumnSpan(this.DP_CalculateButton, 2);
+            this.dualPlayerFormTableLayout.SetColumnSpan(this.DP_CalculateButton, 2);
             this.DP_CalculateButton.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DP_CalculateButton.Location = new System.Drawing.Point(453, 637);
             this.DP_CalculateButton.Name = "DP_CalculateButton";
@@ -305,6 +305,7 @@
             this.DP_CalculateButton.TabIndex = 18;
             this.DP_CalculateButton.Text = "Calculate";
             this.DP_CalculateButton.UseVisualStyleBackColor = false;
+            this.DP_CalculateButton.Click += new System.EventHandler(this.DP_CalculateButton_Click);
             // 
             // DP_Question10
             // 
@@ -410,21 +411,21 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1014, 691);
-            this.Controls.Add(this.pitcherFormTableLayout);
+            this.Controls.Add(this.dualPlayerFormTableLayout);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "DualPlayerForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dual Player";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.pitcherFormTableLayout.ResumeLayout(false);
-            this.pitcherFormTableLayout.PerformLayout();
+            this.dualPlayerFormTableLayout.ResumeLayout(false);
+            this.dualPlayerFormTableLayout.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.TableLayoutPanel pitcherFormTableLayout;
+        private System.Windows.Forms.TableLayoutPanel dualPlayerFormTableLayout;
         private System.Windows.Forms.TextBox DP_Question7TextBox;
         private System.Windows.Forms.TextBox DP_Question6TextBox;
         private System.Windows.Forms.TextBox DP_Question5TextBox;
@@ -439,7 +440,7 @@
         private System.Windows.Forms.Label DP_Question9;
         private System.Windows.Forms.Label DP_Question8;
         private System.Windows.Forms.Label DP_Question7;
-        private System.Windows.Forms.Label PP_Question1;
+        private System.Windows.Forms.Label DP_Question1;
         private System.Windows.Forms.Label DP_Question3;
         private System.Windows.Forms.Label DP_Question2;
         private System.Windows.Forms.Label DP_Question5;
