@@ -32,7 +32,7 @@ namespace Arm_Age_Finder
 
             Variables.age += 5;
 
-            check = int.TryParse(Question1TextBox.Text, out Question1Answer);
+            check = int.TryParse(P_Question1TextBox.Text, out Question1Answer);
             if (check == true)
             {
                 Variables.age += Question1Answer;
@@ -43,7 +43,7 @@ namespace Arm_Age_Finder
                 MessageBox.Show("Please enter a valid numeric value on question 1.");     
             }
 
-            check = int.TryParse(Question2TextBox.Text, out Question2Answer);
+            check = int.TryParse(P_Question2TextBox.Text, out Question2Answer);
             if (check == true)
             {
                 
@@ -82,7 +82,7 @@ namespace Arm_Age_Finder
                 MessageBox.Show("Please enter a valid numeric value on question 2.");
             }
 
-            check = int.TryParse(Question3TextBox.Text, out Question3Answer);
+            check = int.TryParse(P_Question3TextBox.Text, out Question3Answer);
             if (check == true)
             {
                 if (Question3Answer == 0)
@@ -120,7 +120,7 @@ namespace Arm_Age_Finder
                 MessageBox.Show("Please enter a valid numeric value on question 3.");
             }
 
-            check = int.TryParse(Question4TextBox.Text, out Question4Answer);
+            check = int.TryParse(P_Question4TextBox.Text, out Question4Answer);
             if (check == true)
             {
                 if (Question4Answer == 0)
@@ -155,7 +155,7 @@ namespace Arm_Age_Finder
                 MessageBox.Show("Please enter a valid numeric value on question 4.");
             }
 
-            check = int.TryParse(Question5TextBox.Text, out Question5Answer);
+            check = int.TryParse(P_Question5TextBox.Text, out Question5Answer);
             if (check == true)
             {
                 if (Question5Answer == 0)
@@ -194,7 +194,7 @@ namespace Arm_Age_Finder
                 MessageBox.Show("Please enter a valid numeric value on question 5.");
             }
 
-            check = int.TryParse(Question6TextBox.Text, out Question6Answer);
+            check = int.TryParse(P_Question6TextBox.Text, out Question6Answer);
             if (check == true)
             {
                 if (Question6Answer == 0)
@@ -228,7 +228,7 @@ namespace Arm_Age_Finder
                 MessageBox.Show("Please enter a valid numeric value on question 6.");
             }
 
-            Question7Answer = Question7TextBox.Text;
+            Question7Answer = P_Question7TextBox.Text;
                 if (Question7Answer == "No" || Question7Answer == "no" || Question7Answer == "NO" || Question7Answer == "nO")
                 {
                     Variables.age += 0;
@@ -243,7 +243,7 @@ namespace Arm_Age_Finder
                     MessageBox.Show("Please format your entry like the example in question 7");
                 }
 
-            check = int.TryParse(Question8TextBox.Text, out Question8Answer);
+            check = int.TryParse(P_Question8TextBox.Text, out Question8Answer);
             if (check == true)
             {
                 if (Question8Answer == 0)
