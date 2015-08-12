@@ -124,6 +124,7 @@
             this.headerResultsLabel.AutoSize = true;
             this.resultsLayoutPanel.SetColumnSpan(this.headerResultsLabel, 2);
             this.headerResultsLabel.Font = new System.Drawing.Font("Franklin Gothic Medium", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.headerResultsLabel.ForeColor = System.Drawing.Color.Black;
             this.headerResultsLabel.Location = new System.Drawing.Point(188, 56);
             this.headerResultsLabel.Name = "headerResultsLabel";
             this.headerResultsLabel.Size = new System.Drawing.Size(917, 81);
