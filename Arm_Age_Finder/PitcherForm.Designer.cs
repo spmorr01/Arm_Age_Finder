@@ -181,7 +181,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.P_Question6.AutoSize = true;
-            this.P_Question6.Font = new System.Drawing.Font("Segoe Script", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.P_Question6.Font = new System.Drawing.Font("Segoe UI Black", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.P_Question6.ForeColor = System.Drawing.Color.Gold;
             this.P_Question6.Location = new System.Drawing.Point(3, 432);
             this.P_Question6.Name = "P_Question6";
@@ -197,7 +197,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.P_Question5.AutoSize = true;
-            this.P_Question5.Font = new System.Drawing.Font("Segoe Script", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.P_Question5.Font = new System.Drawing.Font("Segoe UI Black", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.P_Question5.ForeColor = System.Drawing.Color.Gold;
             this.P_Question5.Location = new System.Drawing.Point(3, 360);
             this.P_Question5.Name = "P_Question5";
@@ -213,7 +213,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.P_Question4.AutoSize = true;
-            this.P_Question4.Font = new System.Drawing.Font("Segoe Script", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.P_Question4.Font = new System.Drawing.Font("Segoe UI Black", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.P_Question4.ForeColor = System.Drawing.Color.Gold;
             this.P_Question4.Location = new System.Drawing.Point(3, 288);
             this.P_Question4.Name = "P_Question4";
@@ -229,7 +229,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.P_Question3.AutoSize = true;
-            this.P_Question3.Font = new System.Drawing.Font("Segoe Script", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.P_Question3.Font = new System.Drawing.Font("Segoe UI Black", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.P_Question3.ForeColor = System.Drawing.Color.Gold;
             this.P_Question3.Location = new System.Drawing.Point(3, 216);
             this.P_Question3.Name = "P_Question3";
@@ -245,7 +245,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.P_Question2.AutoSize = true;
-            this.P_Question2.Font = new System.Drawing.Font("Segoe Script", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.P_Question2.Font = new System.Drawing.Font("Segoe UI Black", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.P_Question2.ForeColor = System.Drawing.Color.Gold;
             this.P_Question2.Location = new System.Drawing.Point(3, 144);
             this.P_Question2.Name = "P_Question2";
@@ -261,7 +261,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.P_Question1.AutoSize = true;
-            this.P_Question1.Font = new System.Drawing.Font("Segoe Script", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.P_Question1.Font = new System.Drawing.Font("Segoe UI Black", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.P_Question1.ForeColor = System.Drawing.Color.Gold;
             this.P_Question1.Location = new System.Drawing.Point(3, 72);
             this.P_Question1.Name = "P_Question1";
@@ -278,7 +278,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.P_HeaderLabel.AutoSize = true;
             this.pitcherFormTableLayout.SetColumnSpan(this.P_HeaderLabel, 2);
-            this.P_HeaderLabel.Font = new System.Drawing.Font("Segoe Script", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.P_HeaderLabel.Font = new System.Drawing.Font("Segoe UI Black", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.P_HeaderLabel.ForeColor = System.Drawing.Color.Gold;
             this.P_HeaderLabel.Location = new System.Drawing.Point(3, 0);
             this.P_HeaderLabel.Name = "P_HeaderLabel";
@@ -318,7 +318,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.P_Question7.AutoSize = true;
-            this.P_Question7.Font = new System.Drawing.Font("Segoe Script", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.P_Question7.Font = new System.Drawing.Font("Segoe UI Black", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.P_Question7.ForeColor = System.Drawing.Color.Gold;
             this.P_Question7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.P_Question7.Location = new System.Drawing.Point(3, 504);
@@ -335,7 +335,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.P_Question8.AutoSize = true;
-            this.P_Question8.Font = new System.Drawing.Font("Segoe Script", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.P_Question8.Font = new System.Drawing.Font("Segoe UI Black", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.P_Question8.ForeColor = System.Drawing.Color.Gold;
             this.P_Question8.Location = new System.Drawing.Point(3, 576);
             this.P_Question8.Name = "P_Question8";
