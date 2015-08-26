@@ -43,12 +43,12 @@
             // 
             this.pitcherCheckBox.AccessibleName = "Pitcher_CheckBox";
             this.pitcherCheckBox.AutoSize = true;
-            this.pitcherCheckBox.Font = new System.Drawing.Font("Segoe UI Black", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pitcherCheckBox.Font = new System.Drawing.Font("Comic Sans MS", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pitcherCheckBox.ForeColor = System.Drawing.Color.Gold;
             this.pitcherCheckBox.Location = new System.Drawing.Point(3, 163);
             this.pitcherCheckBox.Name = "pitcherCheckBox";
             this.pitcherCheckBox.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.pitcherCheckBox.Size = new System.Drawing.Size(234, 69);
+            this.pitcherCheckBox.Size = new System.Drawing.Size(233, 72);
             this.pitcherCheckBox.TabIndex = 0;
             this.pitcherCheckBox.Text = "Pitcher";
             this.pitcherCheckBox.UseVisualStyleBackColor = true;
@@ -58,12 +58,12 @@
             // 
             this.positionPlayerCheckBox.AccessibleName = "PP_CheckBox";
             this.positionPlayerCheckBox.AutoSize = true;
-            this.positionPlayerCheckBox.Font = new System.Drawing.Font("Segoe UI Black", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.positionPlayerCheckBox.Font = new System.Drawing.Font("Comic Sans MS", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.positionPlayerCheckBox.ForeColor = System.Drawing.Color.Gold;
             this.positionPlayerCheckBox.Location = new System.Drawing.Point(3, 323);
             this.positionPlayerCheckBox.Name = "positionPlayerCheckBox";
             this.positionPlayerCheckBox.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.positionPlayerCheckBox.Size = new System.Drawing.Size(424, 69);
+            this.positionPlayerCheckBox.Size = new System.Drawing.Size(405, 72);
             this.positionPlayerCheckBox.TabIndex = 2;
             this.positionPlayerCheckBox.Text = "Position Player";
             this.positionPlayerCheckBox.UseVisualStyleBackColor = true;
@@ -73,12 +73,12 @@
             // 
             this.dualPlayerCheckBox.AccessibleName = "PP_CheckBox";
             this.dualPlayerCheckBox.AutoSize = true;
-            this.dualPlayerCheckBox.Font = new System.Drawing.Font("Segoe UI Black", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dualPlayerCheckBox.Font = new System.Drawing.Font("Comic Sans MS", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dualPlayerCheckBox.ForeColor = System.Drawing.Color.Gold;
             this.dualPlayerCheckBox.Location = new System.Drawing.Point(3, 483);
             this.dualPlayerCheckBox.Name = "dualPlayerCheckBox";
             this.dualPlayerCheckBox.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.dualPlayerCheckBox.Size = new System.Drawing.Size(344, 69);
+            this.dualPlayerCheckBox.Size = new System.Drawing.Size(332, 72);
             this.dualPlayerCheckBox.TabIndex = 3;
             this.dualPlayerCheckBox.Text = "Dual Player";
             this.dualPlayerCheckBox.UseVisualStyleBackColor = true;
@@ -115,7 +115,7 @@
             // questionLabel
             // 
             this.questionLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.questionLabel.Font = new System.Drawing.Font("Segoe UI Black", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.questionLabel.Font = new System.Drawing.Font("Comic Sans MS", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.questionLabel.ForeColor = System.Drawing.Color.Gold;
             this.questionLabel.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.questionLabel.Location = new System.Drawing.Point(3, 0);

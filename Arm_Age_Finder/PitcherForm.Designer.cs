@@ -188,7 +188,7 @@
             this.P_Question6.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.P_Question6.Size = new System.Drawing.Size(858, 72);
             this.P_Question6.TabIndex = 5;
-            this.P_Question6.Text = "How many pitches do you throw?";
+            this.P_Question6.Text = "6. How many pitches do you throw?";
             this.P_Question6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // P_Question5
@@ -204,7 +204,7 @@
             this.P_Question5.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.P_Question5.Size = new System.Drawing.Size(858, 72);
             this.P_Question5.TabIndex = 4;
-            this.P_Question5.Text = "How many days a week do you throw a flatground?";
+            this.P_Question5.Text = "5. How many days a week do you throw a flatground?";
             this.P_Question5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // P_Question4
@@ -220,7 +220,7 @@
             this.P_Question4.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.P_Question4.Size = new System.Drawing.Size(858, 72);
             this.P_Question4.TabIndex = 3;
-            this.P_Question4.Text = "How many days a week do you play catch?";
+            this.P_Question4.Text = "4. How many days a week do you play catch?";
             this.P_Question4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // P_Question3
@@ -236,7 +236,7 @@
             this.P_Question3.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.P_Question3.Size = new System.Drawing.Size(858, 72);
             this.P_Question3.TabIndex = 2;
-            this.P_Question3.Text = "How hard do you throw? (MPH)";
+            this.P_Question3.Text = "3. How hard do you throw? (MPH)";
             this.P_Question3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // P_Question2
@@ -252,7 +252,7 @@
             this.P_Question2.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.P_Question2.Size = new System.Drawing.Size(858, 72);
             this.P_Question2.TabIndex = 1;
-            this.P_Question2.Text = "How many years have you been pitching?";
+            this.P_Question2.Text = "2. How many years have you been pitching?";
             this.P_Question2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // P_Question1
@@ -268,7 +268,7 @@
             this.P_Question1.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.P_Question1.Size = new System.Drawing.Size(858, 72);
             this.P_Question1.TabIndex = 0;
-            this.P_Question1.Text = "How old are you?";
+            this.P_Question1.Text = "1. How old are you?";
             this.P_Question1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // P_HeaderLabel
@@ -326,7 +326,7 @@
             this.P_Question7.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.P_Question7.Size = new System.Drawing.Size(858, 72);
             this.P_Question7.TabIndex = 7;
-            this.P_Question7.Text = "Have you played a position in the field before? (Yes/No)";
+            this.P_Question7.Text = "7. Have you played a position in the field before? (Yes/No)";
             this.P_Question7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // P_Question8
@@ -342,7 +342,7 @@
             this.P_Question8.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.P_Question8.Size = new System.Drawing.Size(858, 72);
             this.P_Question8.TabIndex = 7;
-            this.P_Question8.Text = "How many serious arm injuries have you had?";
+            this.P_Question8.Text = "8. How many serious arm injuries have you had?";
             this.P_Question8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // PitcherForm

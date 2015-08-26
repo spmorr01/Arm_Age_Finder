@@ -182,7 +182,7 @@ namespace Arm_Age_Finder
             this.DP_Question1.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.DP_Question1.Size = new System.Drawing.Size(754, 57);
             this.DP_Question1.TabIndex = 0;
-            this.DP_Question1.Text = "How old are you?";
+            this.DP_Question1.Text = "1. How old are you?";
             this.DP_Question1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // DP_HeaderLabel
@@ -239,7 +239,7 @@ namespace Arm_Age_Finder
             this.DP_Question10.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.DP_Question10.Size = new System.Drawing.Size(754, 57);
             this.DP_Question10.TabIndex = 7;
-            this.DP_Question10.Text = "How many serious arm injuries have you had?";
+            this.DP_Question10.Text = "10. How many serious arm injuries have you had?";
             this.DP_Question10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // DP_Question2
@@ -255,7 +255,7 @@ namespace Arm_Age_Finder
             this.DP_Question2.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.DP_Question2.Size = new System.Drawing.Size(754, 57);
             this.DP_Question2.TabIndex = 19;
-            this.DP_Question2.Text = "How many years have you been pitching?";
+            this.DP_Question2.Text = "2. How many years have you been pitching?";
             this.DP_Question2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // DP_Question9
@@ -271,7 +271,7 @@ namespace Arm_Age_Finder
             this.DP_Question9.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.DP_Question9.Size = new System.Drawing.Size(754, 57);
             this.DP_Question9.TabIndex = 3;
-            this.DP_Question9.Text = "About how many plays are you apart of each game?";
+            this.DP_Question9.Text = "9. About how many plays are you apart of each game?";
             this.DP_Question9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // DP_Question8
@@ -288,7 +288,7 @@ namespace Arm_Age_Finder
             this.DP_Question8.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.DP_Question8.Size = new System.Drawing.Size(754, 57);
             this.DP_Question8.TabIndex = 2;
-            this.DP_Question8.Text = "How many years have you been playing this position?";
+            this.DP_Question8.Text = "8. How many years have you been playing this position?";
             this.DP_Question8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // DP_Question7
@@ -304,7 +304,7 @@ namespace Arm_Age_Finder
             this.DP_Question7.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.DP_Question7.Size = new System.Drawing.Size(754, 57);
             this.DP_Question7.TabIndex = 1;
-            this.DP_Question7.Text = "What position do you primarily play? (2-9)";
+            this.DP_Question7.Text = "7. What position do you primarily play? (2-9)";
             this.DP_Question7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // DP_Question3
@@ -320,7 +320,7 @@ namespace Arm_Age_Finder
             this.DP_Question3.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.DP_Question3.Size = new System.Drawing.Size(754, 57);
             this.DP_Question3.TabIndex = 5;
-            this.DP_Question3.Text = "How hard do you throw? (MPH)";
+            this.DP_Question3.Text = "3. How hard do you throw? (MPH)";
             this.DP_Question3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // DP_Question4
@@ -336,7 +336,7 @@ namespace Arm_Age_Finder
             this.DP_Question4.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.DP_Question4.Size = new System.Drawing.Size(754, 57);
             this.DP_Question4.TabIndex = 4;
-            this.DP_Question4.Text = "How many days a week do you play catch?";
+            this.DP_Question4.Text = "4. How many days a week do you play catch?";
             this.DP_Question4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // DP_Question5
@@ -352,7 +352,7 @@ namespace Arm_Age_Finder
             this.DP_Question5.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.DP_Question5.Size = new System.Drawing.Size(754, 57);
             this.DP_Question5.TabIndex = 20;
-            this.DP_Question5.Text = "How many days a week do you throw a flatground?";
+            this.DP_Question5.Text = "5. How many days a week do you throw a flatground?";
             this.DP_Question5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // DP_Question6
@@ -368,7 +368,7 @@ namespace Arm_Age_Finder
             this.DP_Question6.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.DP_Question6.Size = new System.Drawing.Size(754, 57);
             this.DP_Question6.TabIndex = 21;
-            this.DP_Question6.Text = "How many pitches do you throw?";
+            this.DP_Question6.Text = "6. How many pitches do you throw?";
             this.DP_Question6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // DP_Question8TextBox

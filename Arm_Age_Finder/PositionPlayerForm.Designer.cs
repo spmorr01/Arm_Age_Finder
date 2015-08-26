@@ -191,7 +191,7 @@ namespace Arm_Age_Finder
             this.PP_Question6.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.PP_Question6.Size = new System.Drawing.Size(879, 81);
             this.PP_Question6.TabIndex = 5;
-            this.PP_Question6.Text = "Have you ever pitched before? (Yes/No)";
+            this.PP_Question6.Text = "6. Have you ever pitched before? (Yes/No)";
             this.PP_Question6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // PP_Question5
@@ -207,7 +207,7 @@ namespace Arm_Age_Finder
             this.PP_Question5.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.PP_Question5.Size = new System.Drawing.Size(879, 81);
             this.PP_Question5.TabIndex = 4;
-            this.PP_Question5.Text = "How many days a week do you play catch?";
+            this.PP_Question5.Text = "5. How many days a week do you play catch?";
             this.PP_Question5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // PP_Question4
@@ -223,7 +223,7 @@ namespace Arm_Age_Finder
             this.PP_Question4.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.PP_Question4.Size = new System.Drawing.Size(879, 81);
             this.PP_Question4.TabIndex = 3;
-            this.PP_Question4.Text = "About how many plays are you apart of each game?";
+            this.PP_Question4.Text = "4. About how many plays are you apart of each game?";
             this.PP_Question4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.PP_Question4.Click += new System.EventHandler(this.PP_Question4_Click);
             // 
@@ -241,7 +241,7 @@ namespace Arm_Age_Finder
             this.PP_Question3.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.PP_Question3.Size = new System.Drawing.Size(879, 81);
             this.PP_Question3.TabIndex = 2;
-            this.PP_Question3.Text = "How many years have you been playing this position?";
+            this.PP_Question3.Text = "3. How many years have you been playing this position?";
             this.PP_Question3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // PP_Question2
@@ -257,7 +257,7 @@ namespace Arm_Age_Finder
             this.PP_Question2.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.PP_Question2.Size = new System.Drawing.Size(879, 81);
             this.PP_Question2.TabIndex = 1;
-            this.PP_Question2.Text = "What position do you primarily play? (2-9)";
+            this.PP_Question2.Text = "2. What position do you primarily play? (2-9)";
             this.PP_Question2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // PP_Question1
@@ -273,7 +273,7 @@ namespace Arm_Age_Finder
             this.PP_Question1.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.PP_Question1.Size = new System.Drawing.Size(879, 81);
             this.PP_Question1.TabIndex = 0;
-            this.PP_Question1.Text = "How old are you?";
+            this.PP_Question1.Text = "1. How old are you?";
             this.PP_Question1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // PP_HeaderLabel
@@ -330,7 +330,7 @@ namespace Arm_Age_Finder
             this.PP_Question7.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.PP_Question7.Size = new System.Drawing.Size(879, 81);
             this.PP_Question7.TabIndex = 7;
-            this.PP_Question7.Text = "How many serious arm injuries have you had?";
+            this.PP_Question7.Text = "7. How many serious arm injuries have you had?";
             this.PP_Question7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // PositionPlayerForm

@@ -59,8 +59,8 @@
             this.resultsLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.resultsLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.resultsLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.resultsLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.resultsLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.resultsLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30F));
+            this.resultsLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
             this.resultsLayoutPanel.Size = new System.Drawing.Size(1293, 733);
             this.resultsLayoutPanel.TabIndex = 0;
             // 
@@ -69,7 +69,7 @@
             this.RestartButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.RestartButton.BackColor = System.Drawing.Color.Gold;
             this.RestartButton.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RestartButton.Location = new System.Drawing.Point(288, 612);
+            this.RestartButton.Location = new System.Drawing.Point(288, 645);
             this.RestartButton.Name = "RestartButton";
             this.RestartButton.Size = new System.Drawing.Size(100, 45);
             this.RestartButton.TabIndex = 5;
@@ -81,11 +81,12 @@
             // 
             this.resultsLayoutPanel.SetColumnSpan(this.diagnosisResultsString, 2);
             this.diagnosisResultsString.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.diagnosisResultsString.Font = new System.Drawing.Font("Comic Sans MS", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.diagnosisResultsString.Font = new System.Drawing.Font("Comic Sans MS", 48F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
+                | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.diagnosisResultsString.ForeColor = System.Drawing.Color.Gold;
             this.diagnosisResultsString.Location = new System.Drawing.Point(33, 432);
             this.diagnosisResultsString.Name = "diagnosisResultsString";
-            this.diagnosisResultsString.Size = new System.Drawing.Size(1227, 134);
+            this.diagnosisResultsString.Size = new System.Drawing.Size(1227, 201);
             this.diagnosisResultsString.TabIndex = 3;
             this.diagnosisResultsString.Text = "(Diagnosis Results)";
             this.diagnosisResultsString.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -95,10 +96,11 @@
             this.diagnosisResults.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.diagnosisResults.AutoSize = true;
             this.resultsLayoutPanel.SetColumnSpan(this.diagnosisResults, 2);
-            this.diagnosisResults.Font = new System.Drawing.Font("Franklin Gothic Medium", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.diagnosisResults.Location = new System.Drawing.Point(484, 324);
+            this.diagnosisResults.Font = new System.Drawing.Font("Comic Sans MS", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.diagnosisResults.ForeColor = System.Drawing.Color.Gold;
+            this.diagnosisResults.Location = new System.Drawing.Point(472, 320);
             this.diagnosisResults.Name = "diagnosisResults";
-            this.diagnosisResults.Size = new System.Drawing.Size(325, 81);
+            this.diagnosisResults.Size = new System.Drawing.Size(348, 90);
             this.diagnosisResults.TabIndex = 2;
             this.diagnosisResults.Text = "Diagnosis:";
             this.diagnosisResults.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -108,7 +110,8 @@
             this.ageResult.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.ageResult.AutoSize = true;
             this.resultsLayoutPanel.SetColumnSpan(this.ageResult, 2);
-            this.ageResult.Font = new System.Drawing.Font("Comic Sans MS", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ageResult.Font = new System.Drawing.Font("Comic Sans MS", 48F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
+                | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ageResult.ForeColor = System.Drawing.Color.Gold;
             this.ageResult.Location = new System.Drawing.Point(466, 186);
             this.ageResult.Name = "ageResult";
@@ -122,11 +125,11 @@
             this.headerResultsLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.headerResultsLabel.AutoSize = true;
             this.resultsLayoutPanel.SetColumnSpan(this.headerResultsLabel, 2);
-            this.headerResultsLabel.Font = new System.Drawing.Font("Franklin Gothic Medium", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.headerResultsLabel.ForeColor = System.Drawing.Color.Black;
-            this.headerResultsLabel.Location = new System.Drawing.Point(188, 56);
+            this.headerResultsLabel.Font = new System.Drawing.Font("Comic Sans MS", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.headerResultsLabel.ForeColor = System.Drawing.Color.Gold;
+            this.headerResultsLabel.Location = new System.Drawing.Point(127, 52);
             this.headerResultsLabel.Name = "headerResultsLabel";
-            this.headerResultsLabel.Size = new System.Drawing.Size(917, 81);
+            this.headerResultsLabel.Size = new System.Drawing.Size(1038, 90);
             this.headerResultsLabel.TabIndex = 0;
             this.headerResultsLabel.Text = "You arm is this many years old:";
             this.headerResultsLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -136,7 +139,7 @@
             this.ExitButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.ExitButton.BackColor = System.Drawing.Color.Gold;
             this.ExitButton.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ExitButton.Location = new System.Drawing.Point(904, 612);
+            this.ExitButton.Location = new System.Drawing.Point(904, 645);
             this.ExitButton.Name = "ExitButton";
             this.ExitButton.Size = new System.Drawing.Size(100, 45);
             this.ExitButton.TabIndex = 4;
