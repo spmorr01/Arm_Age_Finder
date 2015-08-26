@@ -79,14 +79,13 @@
             // 
             // diagnosisResultsString
             // 
-            this.diagnosisResultsString.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.diagnosisResultsString.AutoSize = true;
             this.resultsLayoutPanel.SetColumnSpan(this.diagnosisResultsString, 2);
+            this.diagnosisResultsString.Dock = System.Windows.Forms.DockStyle.Fill;
             this.diagnosisResultsString.Font = new System.Drawing.Font("Comic Sans MS", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.diagnosisResultsString.ForeColor = System.Drawing.Color.Gold;
-            this.diagnosisResultsString.Location = new System.Drawing.Point(339, 454);
+            this.diagnosisResultsString.Location = new System.Drawing.Point(33, 432);
             this.diagnosisResultsString.Name = "diagnosisResultsString";
-            this.diagnosisResultsString.Size = new System.Drawing.Size(614, 90);
+            this.diagnosisResultsString.Size = new System.Drawing.Size(1227, 134);
             this.diagnosisResultsString.TabIndex = 3;
             this.diagnosisResultsString.Text = "(Diagnosis Results)";
             this.diagnosisResultsString.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
